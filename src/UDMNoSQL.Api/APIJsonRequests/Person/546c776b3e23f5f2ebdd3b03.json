@@ -1,0 +1,81 @@
+﻿{
+  "partyId": "546c776b3e23f5f2ebdd3b03",
+  "roleList": [
+    {
+      "$type": "employeeClass",
+      "type": "Employee"
+    },
+    {
+      "$type": "contractorClass",
+      "type": "Contractor"
+    }
+  ],
+  "contactMechanismList": [
+    {
+      "contactMechanism": {
+      "$type": "postalAddressClass",
+      "type": "PostalAddress",
+	    "Country":"US",
+	    "State":"FL",
+	    "City":"Miami",
+	    "PostalCode":"11368",
+	    "Address1":"967 west st",
+	    "Address2":"",
+	    "Directions":""
+      },
+      "fromDate": "2023-09-19T20:03:24.799Z",
+      "nonSolicitationIndicator": true,
+      "comment": "Postal Address test"
+    },
+    {
+      "contactMechanism": {
+      "$type": "telecommunicationNumberClass",
+      "type": "Mobile",
+	    "AreaCode":"506",
+	    "ContactNumber":"87021945"
+      },
+      "fromDate": "2023-09-19T20:03:24.799Z",
+      "nonSolicitationIndicator": false,
+      "comment": "Phone test"
+    },
+    {
+      "contactMechanism": {
+      "$type": "electronicAddressClass",
+       "type": "Email",
+	     "ElectronicAddressString":"Luis.ruiz@ygmail.com"
+      },
+      "fromDate": "2023-09-19T20:03:24.799Z",
+      "nonSolicitationIndicator": false,
+      "comment": "Email test"
+    }
+  ],
+  "firstName": "Luis",
+  "lasttName": "Ruiz",
+  "middletName": "Alberto",
+  "mothersMaidenName": "Arauz",
+  "personalTitle": "Mr",
+  "sufux": "",
+  "nickname": "Macho",
+  "birthDate": "1975-05-28T00:00:00.0000",
+  "gender": "Male",
+  "heigh": 1.85,
+  "weigh": 90,
+  "socialSecurityNo": "1234567890",
+  "passportNo": "0987654321",
+  "passportExpireDate": "2025-09-19T00:00:00.0000",
+  "totalYearsWorkExperience": 15,
+  "comment": "Test Person",
+  "maritalStatusList": [
+    {
+      "Type": "Single",
+      "fromDate": "1975-05-28T00:00:00.0000",
+      "thruDate": "2015-09-19T20:03:24.799Z"
+    },
+    {
+      "Type": "Married",
+      "fromDate": "2015-09-19T20:03:24.799Z"
+    }
+  ],
+  "eeocClassification": "Hispanic",
+  "incomeClassification": "From20kTo50k"
+}

@@ -1,0 +1,53 @@
+﻿{
+  "partyId": "546c776b3e23f5f2ebdd3b01",
+  "roleList": [
+    {
+      "$type": "internalOrganizationClass",
+      "type": "InternalOrganization"
+    }
+  ],
+  "contactMechanismList": [
+    {
+      "contactMechanism": {
+        "$type": "postalAddressClass",
+        "type": "PostalAddress",
+        "Country": "US",
+        "State": "FL",
+        "City": "Doral",
+        "PostalCode": "11369",
+        "Address1": "15th north st",
+        "Address2": "",
+        "Directions": ""
+      },
+      "fromDate": "2023-09-19T20:03:24.799Z",
+      "nonSolicitationIndicator": true,
+      "comment": "Postal Address test"
+    },
+    {
+      "contactMechanism": {
+        "$type": "telecommunicationNumberClass",
+        "type": "Phone",
+        "AreaCode": "506",
+        "ContactNumber": "12345678"
+      },
+      "fromDate": "2023-09-19T20:03:24.799Z",
+      "nonSolicitationIndicator": false,
+      "comment": "Phone test"
+    },
+    {
+      "contactMechanism": {
+        "$type": "electronicAddressClass",
+        "type": "Email",
+        "ElectronicAddressString": "info@acme.com"
+      },
+      "fromDate": "2023-09-19T20:03:24.799Z",
+      "nonSolicitationIndicator": false,
+      "comment": "Email test"
+    }
+  ],
+  "Name": "ACME Inc.",
+  "FederalTaxIdNum": "11223344556677889900",
+  "MinorityClassification": "SABusiness",
+  "Industrylassification": "Manufacturer",
+  "SizeClassification": "Medium"
+}
