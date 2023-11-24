@@ -1,13 +1,241 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        body{
+            width: 960px; 
+            padding:10px; 
+            font-family: Tahoma, Verdana, Geneva, sans-serif;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .figure-title{
+            border-left-style:  solid;
+            margin: 10px;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        span{
+            font-weight: normal !important;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin-bottom: 50px;
+        }
+
+        .grid-item {
+
+        }
+
+        ol {
+            columns: 3;
+            -webkit-columns: 3;
+            -moz-columns: 3;
+        }
+    </style>
 <title>Cenfotec-UDM-Paper</title>
-<head></head>
-<body style="width: 800px; padding:10px; font-family: Tahoma, Verdana, Geneva, sans-serif;">
-<h1>Cenfotec-UDM-Paper</h1>
-<p>The most frequent business information need is to ask questions about people and organizations and to be able to rely on accurate answers to these questions. For instance.</p>
-<img src="images/CommunicationEvent.jpeg" alt="text">
-<h2>Universal Data Models</h2>
-<p>This is a paragraph.</p>
+</head>
+<body>
+<h1>Cenfotec</h1>
+<h3 style="margin-top: -20px;">Maestría de Bases de Datos</h3>
+<h2>Propuesta NoSQL de implementacion de Modelos universales de Datos</h2>
+<p style="margin-top: -15px;">Luis Ruiz - Josė Cabezas</p>
+<p>A continuación se muestran los Modelos Universales de Datos (UDM) utlizados en la propuesta presentada en el paper "Propuesta de implementacion NoSQL de Modelos universales de Datos" 
+    de Luis Alberto Ruiz Arauz y Jose Cabezas, para optar por el grado de Master en Bases de Datos otrogado por la Universisdad Cenfotec.</p>
+
+    <ol>
+        <li><a href="#organization">Organización</a></li>
+        <li><a href="#person">Persona</a></li>
+        <li><a href="#party">Party</a></li>
+        <li><a href="#party-role">Roles</a></li>
+        <li><a href="#party-relationship">Relaciones</a></li>
+        <li><a href="#party-relationship-information">Información de Relaciones</a></li>
+        <li><a href="#postal-address">Dirección Postal</a></li>
+        <li><a href="#party-contact-mechanism">Mecanismo de Contacto</a></li>
+        <li><a href="#communication-event">Evento de Comunicación</a></li>
+        <li><a href="#communication-event-followup">Seguimiento de Comunicación</a></li>
+        <li><a href="#overall-party">Party (General)</a></li>
+        <li><a href="#employment">Empleo</a></li>
+        <li><a href="#position">Posición</a></li>
+        <li><a href="#position-type">Tipo de Posición</a></li>
+        <li><a href="#position-fulfillment">Ocupación de Posición</a></li>
+        <li><a href="#position-reporting-relationship">Reporte de Posición</a></li>
+        <li><a href="#salary-determination">Determinación de Salario</a></li>    
+        <li><a href="#benefits-tracking">Beneficios</a></li>
+        <li><a href="#payroll-information">Planilla</a></li>
+        <li><a href="#employment-application">Aplicación</a></li>
+        <li><a href="#employee-skills-and-qualifications">Habilidades</a></li>
+        <li><a href="#employee-performance">Desempeño</a></li>
+        <li><a href="#employee-termination">Terminación</a></li>
+        <li><a href="#overal-lhuman-resource">Recursos Humanos (General)</a></li>
+      </ol>
+
+<h3>Personas y Organizaciones</h3>
+
+<p id="organization" class="figure-title">Modelo 1: <span>Organización</span></p>
+<div class="grid-container">
+    <img src="images/Organization.jpeg" alt="">
+    <img src="images/organization-data.jpeg" alt="">
+</div>
+
+<p id="person" class="figure-title">Modelo 2: <span>Persona</span></p>
+<div class="grid-container">
+    
+    <div>       
+        <img src="images/person.jpeg" alt="">
+        <p>Modelo Alternativo</p>
+        <img src="images/person-alternate.jpeg" alt="">
+    </div>
+    <img src="images/person-data.jpeg" alt="">
+</div>
+
+<p id="party" class="figure-title">Modelo 3: <span>Party</span></p>
+<div class="grid-container">
+    <img src="images/party.jpeg" alt="">
+    <img src="images/party-data.jpeg" alt="">
+</div>
+
+<p id="party-role" class="figure-title">Modelo 4: <span>Roles (Party)</span></p>
+<div class="grid-container">
+    <img src="images/party-roles.jpeg" alt="">
+    <img src="images/party-roles-data.jpeg" alt="">
+</div>
+
+<p id="party-relationship" class="figure-title">Modelo 5: <span>Relaciones (Party)</span></p>
+<div class="grid-container">
+    <img src="images/party-relationships.jpeg" alt="">
+    <img src="images/person-to-organization-party-relationships-data.jpeg" alt="">
+</div>
+
+<p id="party-relationship-information" class="figure-title">Modelo 6: <span>Información de Relaciones</span></p>
+<div class="grid-container">
+    <img src="images/party-relationship-information.jpeg" alt="">
+    <img src="images/party-relationship-information-data.jpeg" alt="">
+</div>
+
+<p id="postal-address" class="figure-title">Modelo 7: <span>Dirección Postal</span></p>
+<div class="grid-container">
+    <img src="images/postal-address-information.jpeg" alt="">
+    <img src="images/postal-address-data.jpeg" alt="">
+</div>
+
+<p id="party-contact-mechanism" class="figure-title">Modelo 8: <span>Mecanismo de Contacto</span></p>
+<div class="grid-container">
+    <img src="images/party-contact-mechanism-Expanded.jpeg" alt="">
+    <img src="images/party-contact-mechanisms-data.jpeg" alt="">
+</div>
+
+<p id="communication-event" class="figure-title">Modelo 9: <span>Evento de Comunicación</span></p>
+<div class="grid-container">
+    <img src="images/communication-event.jpeg" alt="">
+    <img src="images/communication-event-data.jpeg" alt="">
+</div>
+
+<p id="communication-event-followup" class="figure-title">Modelo 10: <span>Seguimiento de Comunicación</span></p>
+<div class="grid-container">
+    <img src="images/communication-event-followup.jpeg" alt="">
+    <img src="images/communication-event-followup-data.jpeg" alt="">
+</div>
+
+<p id="overall-party" class="figure-title">Modelo 11: <span>Party (General)</span></p>
+<div class="grid-container">
+    <img src="images/overall-party.jpeg" alt="">
+</div>
+
+<h3>Recursos Humanos</h3>
+
+<p id="employment" class="figure-title">Modelo 12: <span>Empleo</span></p>
+<div class="grid-container">
+    <img src="images/employment.jpeg" alt="">
+</div>
+
+<p id="position" class="figure-title">Modelo 13: <span>Posición (Puesto)</span></p>
+<div class="grid-container">
+    <img src="images/position.jpeg" alt="">
+    <img src="images/position-data.jpeg" alt="">
+</div>
+
+<p id="position-type" class="figure-title">Modelo 14: <span>Tipo de Posición</span></p>
+<div class="grid-container">
+    <img src="images/position-type.jpeg" alt="">
+    <div>
+        <img src="images/position-type-data.jpeg" alt="">
+        <img src="images/position-type-classification-data.jpeg" alt="">
+    </div>
+    
+</div>
+
+<p id="position-fulfillment" class="figure-title">Modelo 15: <span>Ocupación de Posición</span></p>
+<div class="grid-container">
+    <img src="images/position-fulfillment.jpeg" alt="">
+    <img src="images/position-fulfillment-data.jpeg" alt="">
+</div>
+
+<p id="position-reporting-relationship" class="figure-title">Modelo 16: <span>Reporte de Posición</span></p>
+<div class="grid-container">
+    <img src="images/position-reporting-relationship.jpeg" alt="">
+    <img src="images/position-reporting-relationship-data.jpeg" alt="">
+</div>
+
+<p id="salary-determination" class="figure-title">Modelo 17: <span>Determinación de Salario</span></p>
+<div class="grid-container">
+    <img src="images/salary-determination.jpeg" alt="">
+    <div>
+        <img src="images/rate-of-pay-data.jpeg" alt="">
+        <img src="images/pay-grade-system-sample.jpeg" alt="">
+        <img src="images/rate-of-pay-sample.jpeg" alt="">
+        <img src="images/pay-history-data.jpeg" alt="">
+    </div>
+    
+</div>
+
+<p id="benefits-tracking" class="figure-title">Modelo 18: <span>Beneficios</span></p>
+<div class="grid-container">
+    <img src="images/benefits-tracking.jpeg" alt="">
+    <img src="images/benefits-tracking-data.jpeg" alt="">
+</div>
+
+<p id="payroll-information" class="figure-title">Modelo 19: <span>Planilla</span></p>
+<div class="grid-container">
+    <img src="images/payroll-information.jpeg" alt="">
+    <div>
+        <img src="images/payroll-information-data.jpeg" alt="">
+        <img src="images/payroll-preference-data.jpeg" alt="">
+    </div>
+    
+</div>
+
+<p id="employment-application" class="figure-title">Modelo 20: <span>Aplicación</span></p>
+<div class="grid-container">
+    <img src="images/employment-application.jpeg" alt="">
+</div>
+
+<p id="employee-skills-and-qualifications" class="figure-title">Modelo 21: <span>Habilidades</span></p>
+<div class="grid-container">
+    <img src="images/employee-skills-and-qualifications.jpeg" alt="">
+</div>
+
+<p id="employee-performance" class="figure-title">Modelo 22: <span>Desempeño</span></p>
+<div class="grid-container">
+    <img src="images/employee-performance.jpeg" alt="">
+</div>
+
+<p id="employee-termination" class="figure-title">Modelo 23: <span>Terminación</span></p>
+<div class="grid-container">
+    <img src="images/employee-termination.jpeg" alt="">
+</div>
+
+<p id="overal-lhuman-resource" class="figure-title">Modelo 24: <span>Recursos Humanos (General)</span></p>
+<div class="grid-container">
+    <img src="images/overal-lhuman-resource.jpeg" alt="">
+</div>
+
 </body>
 </html>
