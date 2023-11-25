@@ -2,7 +2,7 @@
 Este repositorio contine el código de la aplicación para el paper "Propuesta NoSQL para la implementación de Modelos Universales de Datos" de Luis Ruiz y Jose Cabezas, para optar por el grado de master en Base de Datos otorgado pr  la universidad Cenfotec.  Ademas de esto, tambien contiene el [Paper](paper/paper.pdf) en sí, y  [recursos](http://htmlpreview.github.io/?https://github.com/machocr/Cenfotec-Paper-UDM/blob/main/udm/index.html) utlizados en dicho paper.
 
 La aplicación es un servicio WebApi desarrollado en C#.Net y MongoDB
-<img src="https://github.com/machocr/Cenfotec-Paper-UDM/udm/images/api.jpeg?raw=true" width="600">
+<img src="udm/images/api.jpeg?raw=true" width="600">
 
 ## Advertencia/Responsabilidad
 
