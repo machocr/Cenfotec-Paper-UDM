@@ -1,26 +1,20 @@
 # Cenfotec-Paper-UDM
-This repo contains the application created to implement the Universal Data Models (UDM) propoused in the paper "" by Luis Ruiz and José Cabezas.
-## Installation Guide
-## Relational UDM
-<a name="Party Overall"></a>
-<img src="https://github.com/machocr/Cenfotec-Paper-UDM/blob/main/images/UDM/Overall%20Party.png?raw=true" width="600">
-> **Table 10:** Party Overall
-## NoSQL UDM
-## Application
+Este repositorio contine el código de la aplicación para el paper "Propuesta NoSQL para la implementación de Modelos Universales de Datos" de Luis Ruiz y Jose Cabezas, para optar por el grado de master en Base de Datos otorgado pr  la universidad Cenfotec.  Ademas de esto, tambien contiene el [Paper](http://htmlpreview.github.io/?https://github.com/machocr/Cenfotec-Paper-UDM/blob/main/paper/paper.pdf) en sí, y  [recursos](http://htmlpreview.github.io/?https://github.com/machocr/Cenfotec-Paper-UDM/blob/main/udm/index.html) utlizados en dicho paper.
 
+La aplicación es un servicio WebApi desarrollado en C#.Net y MongoDB
+<img src="https://github.com/machocr/Cenfotec-Paper-UDM/udm/images/api.jpeg?raw=true" width="600">
 
+## Advertencia/Responsabilidad
 
+Se han realizado todos los esfuerzos posibles para que este proyecto sea completo y preciso en relación con el tema, pero no implica garantía alguna. Cualquier implementación en este proyecto es MÍA y también está tomada del segmento de mejores prácticas. TODO el contenido se presenta TAL CUAL, solo para fines de aprendizaje.
 
-ORGANIZATION ID	ORGANIZATION SUBTYPE	NAME
-100	Legal organization	ABC Corporation
-200	Legal organization	ABC Subsidiary
-300	Informal organization	Accounting Division
-400	Informal organization	Information Systems Department
-500	Informal organization	Customer Service Division
-600	Informal organization	Customer Support Team
-700	Legal organization	ACME Corporation
-800	Legal organization	Fantastic Supplies
-900	Legal organization	Hughs Cargo
-1000	Legal organization	Sellers Assistance Corporation
-1100	Informal organization	Smith Family
-1200	Legal organization	Government Quality Commission
+### Instalación
+
+Siga estos pasos para configurar su entorno de desarrollo: (Antes de ejecutar, inicie Docker Desktop)
+
+1.  Clone el repositorio
+2.  Una vez que Docker for Desktop esta instalado, vaya a  **Settings > Advanced option**, desde el icono de Docker icon en el system tray, para configurar la cantidad minima de memoria y CPU de la siguiente forma:
+
+-   **Memory: 7 GB**
+-   CPU: 5
+
